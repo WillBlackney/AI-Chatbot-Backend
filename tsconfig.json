@@ -7,5 +7,5 @@
     "outDir": "dist",
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*.ts", "src/index.ts"]
+  "include": ["src/**/*.ts", "src/index.js", "src/app.js", "src/db/connection.js", "src/models/User.js", "src/controllers/user-controller.js", "src/controllers/chat-controller.js", "src/config/openai-config.js", "src/utils/validators.js", "src/utils/token-manager.js", "src/utils/constants.js", "src/routes/user-routes.js", "src/routes/chat-routes.js", "src/routes/index.js"]
 }
