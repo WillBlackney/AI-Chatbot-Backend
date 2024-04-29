@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET))
-app.use(morgan("dev")); // remove from production builds
+//app.use(morgan("dev")); // remove from production builds
 
 app.use("/api/v1", appRouter);
 export default app;
